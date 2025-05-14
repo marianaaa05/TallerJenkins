@@ -3,10 +3,10 @@
 def prueba():
     mensaje = "Hola Mundo desde Python"
     if "Hola" in mensaje:
-        print("Prueba pasada: 'Hola' está en el mensaje.")
+        print("Este es un hola desde Python en Jenkins")
         exit(0)
     else:
-        print("Prueba fallida: 'Hola' no está en el mensaje.")
+        print("Prueba fallida: ha ocurrido un error")
         exit(1)
 
 prueba()
