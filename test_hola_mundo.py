@@ -24,4 +24,8 @@ def test_saludo_correcto():
         print("✅ Prueba exitosa: El saludo es correcto.")
     else:
         print("❌ Prueba fallida: El saludo no es el esperado.")
-        exit(1)  # Esto hace que Jenkins detecte el fallo
+        exit(1)  # Jenkins marcará fallo
+
+# Asegura que se ejecute al correr el script directamente
+if __name__ == "__main__":
+    test_saludo_correcto()
