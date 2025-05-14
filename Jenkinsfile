@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Ejecutando pruebas...'
-                bat 'pytest test_hola_mundo.py'
+                bat 'python test_hola_mundo.py'
             }
         }
     }
