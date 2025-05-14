@@ -25,3 +25,6 @@ def test_hola_mundo():
     else:
         print("❌ Prueba fallida: El saludo no es el esperado.")
         exit(1)  # Esto hace que Jenkins detecte el fallo
+
+if __name__ == "__master__":
+    test_hola_mundo()
